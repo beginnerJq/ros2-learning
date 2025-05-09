@@ -13,6 +13,7 @@ find_package(rclcpp REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 add_executable(cpp_node src/cpp_node.cpp)
+add_executable(person_node src/person_node.cpp)
 
 message(STATUS ${rclcpp_INCLUDE_DIRS})
 message(STATUS ${rclcpp_LIBRARIES})
@@ -20,8 +21,9 @@ message(STATUS ${rclcpp_LIBRARIES})
 # target_include_directories(cpp_node PUBLIC ${rclcpp_INCLUDE_DIRS}) # 头文件包含
 # target_link_libraries(cpp_node ${rclcpp_LIBRARIES}) # 链接库
 ament_target_dependencies(cpp_node rclcpp)
+ament_target_dependencies(person_node rclcpp)
 
-install(TARGETS cpp_node DESTINATION lib/${PROJECT_NAME})
+install(TARGETS cpp_node person_node DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
