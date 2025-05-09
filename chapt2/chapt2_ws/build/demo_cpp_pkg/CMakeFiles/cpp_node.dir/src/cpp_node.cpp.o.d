@@ -1,5 +1,5 @@
 CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o: \
- /home/robot/ros2-learning/chapt2/chapt_ws/src/demo_cpp_pkg/src/cpp_node.cpp \
+ /home/robot/ros2-learning/chapt2/chapt2_ws/src/demo_cpp_pkg/src/cpp_node.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
