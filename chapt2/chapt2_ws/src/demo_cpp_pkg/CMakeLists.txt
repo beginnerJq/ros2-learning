@@ -11,6 +11,7 @@ find_package(rclcpp REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+include_directories(include) # 包含include头文件目录
 
 add_executable(cpp_node src/cpp_node.cpp)
 add_executable(person_node src/person_node.cpp)
@@ -18,16 +19,17 @@ add_executable(learn_auto src/learn_auto.cpp)
 add_executable(learn_shared_ptr src/learn_shared_ptr.cpp)
 add_executable(learn_lambda src/learn_lambda.cpp)
 add_executable(learn_functional src/learn_functional.cpp)
+add_executable(learn_thread src/learn_thread.cpp)
 
 message(STATUS ${rclcpp_INCLUDE_DIRS})
 message(STATUS ${rclcpp_LIBRARIES})
 
 # target_include_directories(cpp_node PUBLIC ${rclcpp_INCLUDE_DIRS}) # 头文件包含
-# target_link_libraries(cpp_node ${rclcpp_LIBRARIES}) # 链接库
+# target_link_libraries(cpp_node ${rclcpp_LIBRAR IES}) # 链接库
 ament_target_dependencies(cpp_node rclcpp)
 ament_target_dependencies(person_node rclcpp)
 
-install(TARGETS cpp_node person_node learn_auto learn_shared_ptr learn_lambda learn_functional DESTINATION lib/${PROJECT_NAME})
+install(TARGETS cpp_node person_node learn_auto learn_shared_ptr learn_lambda learn_functional learn_thread DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
