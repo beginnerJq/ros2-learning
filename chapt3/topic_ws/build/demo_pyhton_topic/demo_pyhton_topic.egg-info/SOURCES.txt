@@ -10,6 +10,7 @@ setup.py
 ../../build/demo_pyhton_topic/demo_pyhton_topic.egg-info/top_level.txt
 ../../build/demo_pyhton_topic/demo_pyhton_topic.egg-info/zip-safe
 demo_pyhton_topic/__init__.py
+demo_pyhton_topic/novel_pub_node.py
 resource/demo_pyhton_topic
 test/test_copyright.py
 test/test_flake8.py
