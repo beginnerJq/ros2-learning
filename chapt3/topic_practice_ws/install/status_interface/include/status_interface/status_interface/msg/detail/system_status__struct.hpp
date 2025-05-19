@@ -47,7 +47,7 @@ struct SystemStatus_
       this->cpu_percent = 0.0f;
       this->memory_percent = 0.0f;
       this->memory_total = 0.0f;
-      this->memory_avilable = 0.0f;
+      this->memory_available = 0.0f;
       this->net_sent = 0.0;
       this->net_recv = 0.0;
     }
@@ -64,7 +64,7 @@ struct SystemStatus_
       this->cpu_percent = 0.0f;
       this->memory_percent = 0.0f;
       this->memory_total = 0.0f;
-      this->memory_avilable = 0.0f;
+      this->memory_available = 0.0f;
       this->net_sent = 0.0;
       this->net_recv = 0.0;
     }
@@ -86,9 +86,9 @@ struct SystemStatus_
   using _memory_total_type =
     float;
   _memory_total_type memory_total;
-  using _memory_avilable_type =
+  using _memory_available_type =
     float;
-  _memory_avilable_type memory_avilable;
+  _memory_available_type memory_available;
   using _net_sent_type =
     double;
   _net_sent_type net_sent;
@@ -127,10 +127,10 @@ struct SystemStatus_
     this->memory_total = _arg;
     return *this;
   }
-  Type & set__memory_avilable(
+  Type & set__memory_available(
     const float & _arg)
   {
-    this->memory_avilable = _arg;
+    this->memory_available = _arg;
     return *this;
   }
   Type & set__net_sent(
@@ -203,7 +203,7 @@ struct SystemStatus_
     if (this->memory_total != other.memory_total) {
       return false;
     }
-    if (this->memory_avilable != other.memory_avilable) {
+    if (this->memory_available != other.memory_available) {
       return false;
     }
     if (this->net_sent != other.net_sent) {

@@ -109,9 +109,9 @@ static bool _SystemStatus__cdr_serialize(
     cdr << ros_message->memory_total;
   }
 
-  // Field name: memory_avilable
+  // Field name: memory_available
   {
-    cdr << ros_message->memory_avilable;
+    cdr << ros_message->memory_available;
   }
 
   // Field name: net_sent
@@ -181,9 +181,9 @@ static bool _SystemStatus__cdr_deserialize(
     cdr >> ros_message->memory_total;
   }
 
-  // Field name: memory_avilable
+  // Field name: memory_available
   {
-    cdr >> ros_message->memory_avilable;
+    cdr >> ros_message->memory_available;
   }
 
   // Field name: net_sent
@@ -239,9 +239,9 @@ size_t get_serialized_size_status_interface__msg__SystemStatus(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name memory_avilable
+  // field.name memory_available
   {
-    size_t item_size = sizeof(ros_message->memory_avilable);
+    size_t item_size = sizeof(ros_message->memory_available);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -341,7 +341,7 @@ size_t max_serialized_size_status_interface__msg__SystemStatus(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: memory_avilable
+  // member: memory_available
   {
     size_t array_size = 1;
 

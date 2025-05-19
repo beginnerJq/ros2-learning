@@ -36,7 +36,7 @@ status_interface__msg__SystemStatus__init(status_interface__msg__SystemStatus * 
   // cpu_percent
   // memory_percent
   // memory_total
-  // memory_avilable
+  // memory_available
   // net_sent
   // net_recv
   return true;
@@ -55,7 +55,7 @@ status_interface__msg__SystemStatus__fini(status_interface__msg__SystemStatus * 
   // cpu_percent
   // memory_percent
   // memory_total
-  // memory_avilable
+  // memory_available
   // net_sent
   // net_recv
 }
@@ -90,8 +90,8 @@ status_interface__msg__SystemStatus__are_equal(const status_interface__msg__Syst
   if (lhs->memory_total != rhs->memory_total) {
     return false;
   }
-  // memory_avilable
-  if (lhs->memory_avilable != rhs->memory_avilable) {
+  // memory_available
+  if (lhs->memory_available != rhs->memory_available) {
     return false;
   }
   // net_sent
@@ -131,8 +131,8 @@ status_interface__msg__SystemStatus__copy(
   output->memory_percent = input->memory_percent;
   // memory_total
   output->memory_total = input->memory_total;
-  // memory_avilable
-  output->memory_avilable = input->memory_avilable;
+  // memory_available
+  output->memory_available = input->memory_available;
   // net_sent
   output->net_sent = input->net_sent;
   // net_recv

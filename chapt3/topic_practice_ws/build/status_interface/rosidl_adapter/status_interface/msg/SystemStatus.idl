@@ -29,7 +29,7 @@ module status_interface {
 
       @verbatim (language="comment", text=
         "内存可用量")
-      float memory_avilable;
+      float memory_available;
 
       @verbatim (language="comment", text=
         "网络发送流量 MB")

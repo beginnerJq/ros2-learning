@@ -126,14 +126,14 @@ static rosidl_typesupport_introspection_c__MessageMember status_interface__msg__
     NULL  // resize(index) function pointer
   },
   {
-    "memory_avilable",  // name
+    "memory_available",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(status_interface__msg__SystemStatus, memory_avilable),  // bytes offset in struct
+    offsetof(status_interface__msg__SystemStatus, memory_available),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

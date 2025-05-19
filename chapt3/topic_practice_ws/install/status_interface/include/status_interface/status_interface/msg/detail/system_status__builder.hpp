@@ -53,15 +53,15 @@ private:
   ::status_interface::msg::SystemStatus msg_;
 };
 
-class Init_SystemStatus_memory_avilable
+class Init_SystemStatus_memory_available
 {
 public:
-  explicit Init_SystemStatus_memory_avilable(::status_interface::msg::SystemStatus & msg)
+  explicit Init_SystemStatus_memory_available(::status_interface::msg::SystemStatus & msg)
   : msg_(msg)
   {}
-  Init_SystemStatus_net_sent memory_avilable(::status_interface::msg::SystemStatus::_memory_avilable_type arg)
+  Init_SystemStatus_net_sent memory_available(::status_interface::msg::SystemStatus::_memory_available_type arg)
   {
-    msg_.memory_avilable = std::move(arg);
+    msg_.memory_available = std::move(arg);
     return Init_SystemStatus_net_sent(msg_);
   }
 
@@ -75,10 +75,10 @@ public:
   explicit Init_SystemStatus_memory_total(::status_interface::msg::SystemStatus & msg)
   : msg_(msg)
   {}
-  Init_SystemStatus_memory_avilable memory_total(::status_interface::msg::SystemStatus::_memory_total_type arg)
+  Init_SystemStatus_memory_available memory_total(::status_interface::msg::SystemStatus::_memory_total_type arg)
   {
     msg_.memory_total = std::move(arg);
-    return Init_SystemStatus_memory_avilable(msg_);
+    return Init_SystemStatus_memory_available(msg_);
   }
 
 private:

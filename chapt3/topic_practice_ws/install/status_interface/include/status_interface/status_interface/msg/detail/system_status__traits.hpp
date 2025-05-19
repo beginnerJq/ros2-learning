@@ -64,10 +64,10 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: memory_avilable
+  // member: memory_available
   {
-    out << "memory_avilable: ";
-    rosidl_generator_traits::value_to_yaml(msg.memory_avilable, out);
+    out << "memory_available: ";
+    rosidl_generator_traits::value_to_yaml(msg.memory_available, out);
     out << ", ";
   }
 
@@ -139,13 +139,13 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: memory_avilable
+  // member: memory_available
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "memory_avilable: ";
-    rosidl_generator_traits::value_to_yaml(msg.memory_avilable, out);
+    out << "memory_available: ";
+    rosidl_generator_traits::value_to_yaml(msg.memory_available, out);
     out << "\n";
   }
 

@@ -38,7 +38,7 @@ typedef struct status_interface__msg__SystemStatus
   /// 内存总量
   float memory_total;
   /// 内存可用量
-  float memory_avilable;
+  float memory_available;
   /// 网络发送流量 MB
   double net_sent;
   /// 网络接收流量 MB

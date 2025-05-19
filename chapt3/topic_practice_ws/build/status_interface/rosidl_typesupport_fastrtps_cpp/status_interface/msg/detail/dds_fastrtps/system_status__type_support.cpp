@@ -68,8 +68,8 @@ cdr_serialize(
   cdr << ros_message.memory_percent;
   // Member: memory_total
   cdr << ros_message.memory_total;
-  // Member: memory_avilable
-  cdr << ros_message.memory_avilable;
+  // Member: memory_available
+  cdr << ros_message.memory_available;
   // Member: net_sent
   cdr << ros_message.net_sent;
   // Member: net_recv
@@ -99,8 +99,8 @@ cdr_deserialize(
   // Member: memory_total
   cdr >> ros_message.memory_total;
 
-  // Member: memory_avilable
-  cdr >> ros_message.memory_avilable;
+  // Member: memory_available
+  cdr >> ros_message.memory_available;
 
   // Member: net_sent
   cdr >> ros_message.net_sent;
@@ -151,9 +151,9 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: memory_avilable
+  // Member: memory_available
   {
-    size_t item_size = sizeof(ros_message.memory_avilable);
+    size_t item_size = sizeof(ros_message.memory_available);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -252,7 +252,7 @@ max_serialized_size_SystemStatus(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: memory_avilable
+  // Member: memory_available
   {
     size_t array_size = 1;
 
