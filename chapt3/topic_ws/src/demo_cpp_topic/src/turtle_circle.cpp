@@ -28,7 +28,7 @@ public:
 int main(int argc, char* argv[])
 {
     rclcpp::init(argc, argv);                                             // 初始化ROS2
-    auto node = std::make_shared<TurtleCircleNode>("turtle_circle_node"); // 创建节点
+    auto node = std::make_shared<TurtleCircleNode>("turtle_circle"); // 创建节点
     rclcpp::spin(node);                                                   // 运行节点
     rclcpp::shutdown();                                                   // 关闭ROS2
     return 0;

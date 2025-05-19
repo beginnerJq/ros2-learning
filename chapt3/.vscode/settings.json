@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.md": "markdown",
+        "*.snap": "javascriptreact",
+        ".dockerignore": "scminput",
+        ".env.prod": "dotenv",
+        "ratio": "cpp",
+        "iterator": "cpp"
+    }
+}

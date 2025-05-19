@@ -1,6 +1,7 @@
 /home/robot/ros2-learning/chapt3/topic_ws/build/demo_cpp_topic/CMakeFiles/uninstall.dir
 /home/robot/ros2-learning/chapt3/topic_ws/build/demo_cpp_topic/CMakeFiles/demo_cpp_topic_uninstall.dir
 /home/robot/ros2-learning/chapt3/topic_ws/build/demo_cpp_topic/CMakeFiles/turtle_circle.dir
+/home/robot/ros2-learning/chapt3/topic_ws/build/demo_cpp_topic/CMakeFiles/turtle_control.dir
 /home/robot/ros2-learning/chapt3/topic_ws/build/demo_cpp_topic/CMakeFiles/test.dir
 /home/robot/ros2-learning/chapt3/topic_ws/build/demo_cpp_topic/CMakeFiles/edit_cache.dir
 /home/robot/ros2-learning/chapt3/topic_ws/build/demo_cpp_topic/CMakeFiles/rebuild_cache.dir
