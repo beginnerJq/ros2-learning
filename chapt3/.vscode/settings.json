@@ -5,6 +5,7 @@
         ".dockerignore": "scminput",
         ".env.prod": "dotenv",
         "ratio": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "qlabel": "cpp"
     }
 }

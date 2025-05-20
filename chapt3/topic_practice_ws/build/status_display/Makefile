@@ -198,41 +198,41 @@ status_display_uninstall/fast:
 .PHONY : status_display_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named hello_qt
+# Target rules for targets named sys_status_display
 
 # Build rule for target.
-hello_qt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_qt
-.PHONY : hello_qt
+sys_status_display: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sys_status_display
+.PHONY : sys_status_display
 
 # fast build rule for target.
-hello_qt/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_qt.dir/build.make CMakeFiles/hello_qt.dir/build
-.PHONY : hello_qt/fast
+sys_status_display/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sys_status_display.dir/build.make CMakeFiles/sys_status_display.dir/build
+.PHONY : sys_status_display/fast
 
-src/hello_qt.o: src/hello_qt.cpp.o
-.PHONY : src/hello_qt.o
+src/sys_status_display.o: src/sys_status_display.cpp.o
+.PHONY : src/sys_status_display.o
 
 # target to build an object file
-src/hello_qt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_qt.dir/build.make CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o
-.PHONY : src/hello_qt.cpp.o
+src/sys_status_display.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sys_status_display.dir/build.make CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o
+.PHONY : src/sys_status_display.cpp.o
 
-src/hello_qt.i: src/hello_qt.cpp.i
-.PHONY : src/hello_qt.i
+src/sys_status_display.i: src/sys_status_display.cpp.i
+.PHONY : src/sys_status_display.i
 
 # target to preprocess a source file
-src/hello_qt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_qt.dir/build.make CMakeFiles/hello_qt.dir/src/hello_qt.cpp.i
-.PHONY : src/hello_qt.cpp.i
+src/sys_status_display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sys_status_display.dir/build.make CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.i
+.PHONY : src/sys_status_display.cpp.i
 
-src/hello_qt.s: src/hello_qt.cpp.s
-.PHONY : src/hello_qt.s
+src/sys_status_display.s: src/sys_status_display.cpp.s
+.PHONY : src/sys_status_display.s
 
 # target to generate assembly for a file
-src/hello_qt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_qt.dir/build.make CMakeFiles/hello_qt.dir/src/hello_qt.cpp.s
-.PHONY : src/hello_qt.cpp.s
+src/sys_status_display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sys_status_display.dir/build.make CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.s
+.PHONY : src/sys_status_display.cpp.s
 
 # Help Target
 help:
@@ -249,10 +249,10 @@ help:
 	@echo "... test"
 	@echo "... status_display_uninstall"
 	@echo "... uninstall"
-	@echo "... hello_qt"
-	@echo "... src/hello_qt.o"
-	@echo "... src/hello_qt.i"
-	@echo "... src/hello_qt.s"
+	@echo "... sys_status_display"
+	@echo "... src/sys_status_display.o"
+	@echo "... src/sys_status_display.i"
+	@echo "... src/sys_status_display.s"
 .PHONY : help
 
 

@@ -43,17 +43,21 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/hello_qt" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/hello_qt")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/sys_status_display" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/sys_status_display")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/hello_qt"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/sys_status_display"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/status_display" TYPE EXECUTABLE FILES "/home/robot/ros2-learning/chapt3/topic_practice_ws/build/status_display/hello_qt")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/hello_qt" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/hello_qt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/status_display" TYPE EXECUTABLE FILES "/home/robot/ros2-learning/chapt3/topic_practice_ws/build/status_display/sys_status_display")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/sys_status_display" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/sys_status_display")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/sys_status_display"
+         OLD_RPATH "/opt/ros/humble/lib:/home/robot/ros2-learning/chapt3/topic_practice_ws/install/status_interface/lib:"
+         NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/hello_qt")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/status_display/sys_status_display")
     endif()
   endif()
 endif()
