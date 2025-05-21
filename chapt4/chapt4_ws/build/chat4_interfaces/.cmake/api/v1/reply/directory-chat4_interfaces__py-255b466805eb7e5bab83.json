@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "chat4_interfaces__py",
+		"source" : "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/chat4_interfaces__py"
+	}
+}

@@ -1,0 +1,320 @@
+// generated from rosidl_generator_cpp/resource/idl__struct.hpp.em
+// with input from chat4_interfaces:srv/FaceDector.idl
+// generated code does not contain a copyright notice
+
+#ifndef CHAT4_INTERFACES__SRV__DETAIL__FACE_DECTOR__STRUCT_HPP_
+#define CHAT4_INTERFACES__SRV__DETAIL__FACE_DECTOR__STRUCT_HPP_
+
+#include <algorithm>
+#include <array>
+#include <memory>
+#include <string>
+#include <vector>
+
+#include "rosidl_runtime_cpp/bounded_vector.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
+
+
+// Include directives for member types
+// Member 'image'
+#include "sensor_msgs/msg/detail/image__struct.hpp"
+
+#ifndef _WIN32
+# define DEPRECATED__chat4_interfaces__srv__FaceDector_Request __attribute__((deprecated))
+#else
+# define DEPRECATED__chat4_interfaces__srv__FaceDector_Request __declspec(deprecated)
+#endif
+
+namespace chat4_interfaces
+{
+
+namespace srv
+{
+
+// message struct
+template<class ContainerAllocator>
+struct FaceDector_Request_
+{
+  using Type = FaceDector_Request_<ContainerAllocator>;
+
+  explicit FaceDector_Request_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : image(_init)
+  {
+    (void)_init;
+  }
+
+  explicit FaceDector_Request_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : image(_alloc, _init)
+  {
+    (void)_init;
+  }
+
+  // field types and members
+  using _image_type =
+    sensor_msgs::msg::Image_<ContainerAllocator>;
+  _image_type image;
+
+  // setters for named parameter idiom
+  Type & set__image(
+    const sensor_msgs::msg::Image_<ContainerAllocator> & _arg)
+  {
+    this->image = _arg;
+    return *this;
+  }
+
+  // constant declarations
+
+  // pointer types
+  using RawPtr =
+    chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator> *;
+  using ConstRawPtr =
+    const chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator> *;
+  using SharedPtr =
+    std::shared_ptr<chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator>>;
+  using ConstSharedPtr =
+    std::shared_ptr<chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator> const>;
+
+  template<typename Deleter = std::default_delete<
+      chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator>>>
+  using UniquePtrWithDeleter =
+    std::unique_ptr<chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator>, Deleter>;
+
+  using UniquePtr = UniquePtrWithDeleter<>;
+
+  template<typename Deleter = std::default_delete<
+      chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator>>>
+  using ConstUniquePtrWithDeleter =
+    std::unique_ptr<chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator> const, Deleter>;
+  using ConstUniquePtr = ConstUniquePtrWithDeleter<>;
+
+  using WeakPtr =
+    std::weak_ptr<chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator>>;
+  using ConstWeakPtr =
+    std::weak_ptr<chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator> const>;
+
+  // pointer types similar to ROS 1, use SharedPtr / ConstSharedPtr instead
+  // NOTE: Can't use 'using' here because GNU C++ can't parse attributes properly
+  typedef DEPRECATED__chat4_interfaces__srv__FaceDector_Request
+    std::shared_ptr<chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator>>
+    Ptr;
+  typedef DEPRECATED__chat4_interfaces__srv__FaceDector_Request
+    std::shared_ptr<chat4_interfaces::srv::FaceDector_Request_<ContainerAllocator> const>
+    ConstPtr;
+
+  // comparison operators
+  bool operator==(const FaceDector_Request_ & other) const
+  {
+    if (this->image != other.image) {
+      return false;
+    }
+    return true;
+  }
+  bool operator!=(const FaceDector_Request_ & other) const
+  {
+    return !this->operator==(other);
+  }
+};  // struct FaceDector_Request_
+
+// alias to use template instance with default allocator
+using FaceDector_Request =
+  chat4_interfaces::srv::FaceDector_Request_<std::allocator<void>>;
+
+// constant definitions
+
+}  // namespace srv
+
+}  // namespace chat4_interfaces
+
+
+#ifndef _WIN32
+# define DEPRECATED__chat4_interfaces__srv__FaceDector_Response __attribute__((deprecated))
+#else
+# define DEPRECATED__chat4_interfaces__srv__FaceDector_Response __declspec(deprecated)
+#endif
+
+namespace chat4_interfaces
+{
+
+namespace srv
+{
+
+// message struct
+template<class ContainerAllocator>
+struct FaceDector_Response_
+{
+  using Type = FaceDector_Response_<ContainerAllocator>;
+
+  explicit FaceDector_Response_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  {
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->number = 0;
+      this->use_time = 0.0f;
+    }
+  }
+
+  explicit FaceDector_Response_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  {
+    (void)_alloc;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->number = 0;
+      this->use_time = 0.0f;
+    }
+  }
+
+  // field types and members
+  using _number_type =
+    int16_t;
+  _number_type number;
+  using _use_time_type =
+    float;
+  _use_time_type use_time;
+  using _top_type =
+    std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
+  _top_type top;
+  using _right_type =
+    std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
+  _right_type right;
+  using _bottom_type =
+    std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
+  _bottom_type bottom;
+  using _left_type =
+    std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
+  _left_type left;
+
+  // setters for named parameter idiom
+  Type & set__number(
+    const int16_t & _arg)
+  {
+    this->number = _arg;
+    return *this;
+  }
+  Type & set__use_time(
+    const float & _arg)
+  {
+    this->use_time = _arg;
+    return *this;
+  }
+  Type & set__top(
+    const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
+  {
+    this->top = _arg;
+    return *this;
+  }
+  Type & set__right(
+    const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
+  {
+    this->right = _arg;
+    return *this;
+  }
+  Type & set__bottom(
+    const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
+  {
+    this->bottom = _arg;
+    return *this;
+  }
+  Type & set__left(
+    const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
+  {
+    this->left = _arg;
+    return *this;
+  }
+
+  // constant declarations
+
+  // pointer types
+  using RawPtr =
+    chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator> *;
+  using ConstRawPtr =
+    const chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator> *;
+  using SharedPtr =
+    std::shared_ptr<chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator>>;
+  using ConstSharedPtr =
+    std::shared_ptr<chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator> const>;
+
+  template<typename Deleter = std::default_delete<
+      chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator>>>
+  using UniquePtrWithDeleter =
+    std::unique_ptr<chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator>, Deleter>;
+
+  using UniquePtr = UniquePtrWithDeleter<>;
+
+  template<typename Deleter = std::default_delete<
+      chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator>>>
+  using ConstUniquePtrWithDeleter =
+    std::unique_ptr<chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator> const, Deleter>;
+  using ConstUniquePtr = ConstUniquePtrWithDeleter<>;
+
+  using WeakPtr =
+    std::weak_ptr<chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator>>;
+  using ConstWeakPtr =
+    std::weak_ptr<chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator> const>;
+
+  // pointer types similar to ROS 1, use SharedPtr / ConstSharedPtr instead
+  // NOTE: Can't use 'using' here because GNU C++ can't parse attributes properly
+  typedef DEPRECATED__chat4_interfaces__srv__FaceDector_Response
+    std::shared_ptr<chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator>>
+    Ptr;
+  typedef DEPRECATED__chat4_interfaces__srv__FaceDector_Response
+    std::shared_ptr<chat4_interfaces::srv::FaceDector_Response_<ContainerAllocator> const>
+    ConstPtr;
+
+  // comparison operators
+  bool operator==(const FaceDector_Response_ & other) const
+  {
+    if (this->number != other.number) {
+      return false;
+    }
+    if (this->use_time != other.use_time) {
+      return false;
+    }
+    if (this->top != other.top) {
+      return false;
+    }
+    if (this->right != other.right) {
+      return false;
+    }
+    if (this->bottom != other.bottom) {
+      return false;
+    }
+    if (this->left != other.left) {
+      return false;
+    }
+    return true;
+  }
+  bool operator!=(const FaceDector_Response_ & other) const
+  {
+    return !this->operator==(other);
+  }
+};  // struct FaceDector_Response_
+
+// alias to use template instance with default allocator
+using FaceDector_Response =
+  chat4_interfaces::srv::FaceDector_Response_<std::allocator<void>>;
+
+// constant definitions
+
+}  // namespace srv
+
+}  // namespace chat4_interfaces
+
+namespace chat4_interfaces
+{
+
+namespace srv
+{
+
+struct FaceDector
+{
+  using Request = chat4_interfaces::srv::FaceDector_Request;
+  using Response = chat4_interfaces::srv::FaceDector_Response;
+};
+
+}  // namespace srv
+
+}  // namespace chat4_interfaces
+
+#endif  // CHAT4_INTERFACES__SRV__DETAIL__FACE_DECTOR__STRUCT_HPP_
