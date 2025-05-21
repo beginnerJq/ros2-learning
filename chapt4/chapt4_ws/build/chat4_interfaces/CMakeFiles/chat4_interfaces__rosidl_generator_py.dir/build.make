@@ -69,28 +69,28 @@ include CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/flags.make
 
-CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.o: CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/flags.make
-CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.o: rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c
-CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.o: CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.o -MF CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.o.d -o CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.o -c /home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c
+CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.o: CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/flags.make
+CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.o: rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c
+CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.o: CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.o -MF CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.o.d -o CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.o -c /home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c
 
-CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c > CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.i
+CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c > CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.i
 
-CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c -o CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.s
+CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c -o CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.s
 
 # Object files for target chat4_interfaces__rosidl_generator_py
 chat4_interfaces__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.o"
+"CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.o"
 
 # External object files for target chat4_interfaces__rosidl_generator_py
 chat4_interfaces__rosidl_generator_py_EXTERNAL_OBJECTS =
 
-rosidl_generator_py/chat4_interfaces/libchat4_interfaces__rosidl_generator_py.so: CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c.o
+rosidl_generator_py/chat4_interfaces/libchat4_interfaces__rosidl_generator_py.so: CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c.o
 rosidl_generator_py/chat4_interfaces/libchat4_interfaces__rosidl_generator_py.so: CMakeFiles/chat4_interfaces__rosidl_generator_py.dir/build.make
 rosidl_generator_py/chat4_interfaces/libchat4_interfaces__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/chat4_interfaces/libchat4_interfaces__rosidl_generator_py.so: libchat4_interfaces__rosidl_typesupport_c.so

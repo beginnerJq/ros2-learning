@@ -66,9 +66,9 @@ include CMakeFiles/chat4_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/chat4_interfaces.dir/progress.make
 
-CMakeFiles/chat4_interfaces: /home/robot/ros2-learning/chapt4/chapt4_ws/src/chat4_interfaces/srv/FaceDector.srv
-CMakeFiles/chat4_interfaces: rosidl_cmake/srv/FaceDector_Request.msg
-CMakeFiles/chat4_interfaces: rosidl_cmake/srv/FaceDector_Response.msg
+CMakeFiles/chat4_interfaces: /home/robot/ros2-learning/chapt4/chapt4_ws/src/chat4_interfaces/srv/FaceDetector.srv
+CMakeFiles/chat4_interfaces: rosidl_cmake/srv/FaceDetector_Request.msg
+CMakeFiles/chat4_interfaces: rosidl_cmake/srv/FaceDetector_Response.msg
 CMakeFiles/chat4_interfaces: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/chat4_interfaces: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/chat4_interfaces: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl

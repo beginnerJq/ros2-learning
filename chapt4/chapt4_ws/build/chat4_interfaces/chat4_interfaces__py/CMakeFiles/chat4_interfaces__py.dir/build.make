@@ -69,9 +69,9 @@ include chat4_interfaces__py/CMakeFiles/chat4_interfaces__py.dir/progress.make
 chat4_interfaces__py/CMakeFiles/chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 chat4_interfaces__py/CMakeFiles/chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 chat4_interfaces__py/CMakeFiles/chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_c.c
-chat4_interfaces__py/CMakeFiles/chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/srv/_face_dector.py
+chat4_interfaces__py/CMakeFiles/chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/srv/_face_detector.py
 chat4_interfaces__py/CMakeFiles/chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/srv/__init__.py
-chat4_interfaces__py/CMakeFiles/chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c
+chat4_interfaces__py/CMakeFiles/chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c
 
 rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -86,7 +86,7 @@ rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_f
 rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/chat4_interfaces/srv/FaceDector.idl
+rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/chat4_interfaces/srv/FaceDetector.idl
 rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -186,22 +186,22 @@ rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_i
 rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/chat4_interfaces/srv/_face_dector.py: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chat4_interfaces/srv/_face_dector.py
+rosidl_generator_py/chat4_interfaces/srv/_face_detector.py: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chat4_interfaces/srv/_face_detector.py
 
 rosidl_generator_py/chat4_interfaces/srv/__init__.py: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chat4_interfaces/srv/__init__.py
 
-rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c
+rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c
 
 chat4_interfaces__py: chat4_interfaces__py/CMakeFiles/chat4_interfaces__py
 chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_c.c
 chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/srv/__init__.py
-chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/srv/_face_dector.py
-chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c
+chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/srv/_face_detector.py
+chat4_interfaces__py: rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c
 chat4_interfaces__py: chat4_interfaces__py/CMakeFiles/chat4_interfaces__py.dir/build.make
 .PHONY : chat4_interfaces__py
 

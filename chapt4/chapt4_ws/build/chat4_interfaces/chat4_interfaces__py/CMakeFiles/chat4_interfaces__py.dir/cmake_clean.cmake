@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
   "../rosidl_generator_py/chat4_interfaces/srv/__init__.py"
-  "../rosidl_generator_py/chat4_interfaces/srv/_face_dector.py"
-  "../rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c"
+  "../rosidl_generator_py/chat4_interfaces/srv/_face_detector.py"
+  "../rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c"
   "CMakeFiles/chat4_interfaces__py"
 )
 

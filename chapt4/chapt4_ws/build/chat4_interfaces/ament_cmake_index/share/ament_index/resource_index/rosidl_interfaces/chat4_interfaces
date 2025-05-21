@@ -1,4 +1,4 @@
-srv/FaceDector.idl
-srv/FaceDector.srv
-srv/FaceDector_Request.msg
-srv/FaceDector_Response.msg
+srv/FaceDetector.idl
+srv/FaceDetector.srv
+srv/FaceDetector_Request.msg
+srv/FaceDetector_Response.msg

@@ -356,19 +356,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat4_interfaces/srv" TYPE FILE FILES "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_adapter/chat4_interfaces/srv/FaceDector.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat4_interfaces/srv" TYPE FILE FILES "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_adapter/chat4_interfaces/srv/FaceDetector.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat4_interfaces/srv" TYPE FILE FILES "/home/robot/ros2-learning/chapt4/chapt4_ws/src/chat4_interfaces/srv/FaceDector.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat4_interfaces/srv" TYPE FILE FILES "/home/robot/ros2-learning/chapt4/chapt4_ws/src/chat4_interfaces/srv/FaceDetector.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat4_interfaces/srv" TYPE FILE FILES "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_cmake/srv/FaceDector_Request.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat4_interfaces/srv" TYPE FILE FILES "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_cmake/srv/FaceDetector_Request.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat4_interfaces/srv" TYPE FILE FILES "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_cmake/srv/FaceDector_Response.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat4_interfaces/srv" TYPE FILE FILES "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_cmake/srv/FaceDetector_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -15,8 +15,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_c.c" "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_introspection_c.c" "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/__init__.py" "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/_face_dector.py" "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/_face_dector_s.c" "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/_face_detector.py" "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/srv/_face_detector_s.c" "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_generator_py/chat4_interfaces/_chat4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

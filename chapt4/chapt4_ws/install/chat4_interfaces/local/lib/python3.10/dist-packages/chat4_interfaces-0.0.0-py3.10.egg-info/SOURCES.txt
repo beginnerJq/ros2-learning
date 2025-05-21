@@ -6,3 +6,4 @@ chat4_interfaces.egg-info/dependency_links.txt
 chat4_interfaces.egg-info/top_level.txt
 chat4_interfaces/srv/__init__.py
 chat4_interfaces/srv/_face_dector.py
+chat4_interfaces/srv/_face_detector.py

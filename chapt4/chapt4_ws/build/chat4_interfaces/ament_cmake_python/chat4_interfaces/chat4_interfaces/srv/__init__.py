@@ -1,1 +1,1 @@
-from chat4_interfaces.srv._face_dector import FaceDector  # noqa: F401
+from chat4_interfaces.srv._face_detector import FaceDetector  # noqa: F401

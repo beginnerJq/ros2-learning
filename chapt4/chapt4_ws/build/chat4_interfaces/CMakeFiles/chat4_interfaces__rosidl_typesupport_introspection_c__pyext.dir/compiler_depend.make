@@ -242,22 +242,24 @@ CMakeFiles/chat4_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosid
   /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  rosidl_generator_c/chat4_interfaces/srv/detail/face_dector__type_support.h \
+  rosidl_generator_c/chat4_interfaces/srv/detail/face_detector__type_support.h \
   rosidl_generator_c/chat4_interfaces/msg/rosidl_generator_c__visibility_control.h \
-  rosidl_generator_c/chat4_interfaces/srv/detail/face_dector__struct.h \
+  rosidl_generator_c/chat4_interfaces/srv/detail/face_detector__struct.h \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/chat4_interfaces/srv/detail/face_dector__functions.h
+  rosidl_generator_c/chat4_interfaces/srv/detail/face_detector__functions.h
 
+
+rosidl_generator_c/chat4_interfaces/srv/detail/face_detector__functions.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h:
 
-rosidl_generator_c/chat4_interfaces/srv/detail/face_dector__struct.h:
+rosidl_generator_c/chat4_interfaces/srv/detail/face_detector__struct.h:
 
 rosidl_generator_c/chat4_interfaces/msg/rosidl_generator_c__visibility_control.h:
 
@@ -281,6 +283,8 @@ rosidl_generator_c/chat4_interfaces/msg/rosidl_generator_c__visibility_control.h
 
 /usr/include/python3.10/cpython/sysmodule.h:
 
+rosidl_generator_c/chat4_interfaces/srv/detail/face_detector__type_support.h:
+
 /usr/include/python3.10/sysmodule.h:
 
 /usr/include/python3.10/compile.h:
@@ -294,8 +298,6 @@ rosidl_generator_c/chat4_interfaces/msg/rosidl_generator_c__visibility_control.h
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
-
-rosidl_generator_c/chat4_interfaces/srv/detail/face_dector__functions.h:
 
 /usr/include/sched.h:
 
@@ -340,8 +342,6 @@ rosidl_generator_c/chat4_interfaces/srv/detail/face_dector__functions.h:
 /usr/include/python3.10/moduleobject.h:
 
 /usr/include/python3.10/dictobject.h:
-
-rosidl_generator_c/chat4_interfaces/srv/detail/face_dector__type_support.h:
 
 /usr/include/python3.10/cpython/listobject.h:
 

@@ -1,6 +1,6 @@
 {
   "package_name": "chat4_interfaces",
   "non_idl_tuples": [
-    "/home/robot/ros2-learning/chapt4/chapt4_ws/src/chat4_interfaces:srv/FaceDector.srv"
+    "/home/robot/ros2-learning/chapt4/chapt4_ws/src/chat4_interfaces:srv/FaceDetector.srv"
   ]
 }

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_typesupport_cpp/chat4_interfaces/srv/face_dector__type_support.cpp" "CMakeFiles/chat4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat4_interfaces/srv/face_dector__type_support.cpp.o" "gcc" "CMakeFiles/chat4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat4_interfaces/srv/face_dector__type_support.cpp.o.d"
+  "/home/robot/ros2-learning/chapt4/chapt4_ws/build/chat4_interfaces/rosidl_typesupport_cpp/chat4_interfaces/srv/face_detector__type_support.cpp" "CMakeFiles/chat4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat4_interfaces/srv/face_detector__type_support.cpp.o" "gcc" "CMakeFiles/chat4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat4_interfaces/srv/face_detector__type_support.cpp.o.d"
   )
 
 # Targets to which this target links.
